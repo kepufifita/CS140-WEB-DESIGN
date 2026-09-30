@@ -1,0 +1,33 @@
+p{
+    color:brown;
+}
+
+header h1{
+    color:cadetblue;
+}
+
+main p{
+    color:green;
+}
+
+#maintitle{
+    color:teal;
+}
+.orange{
+    color:orange;
+}
+main h1{
+    font-size: large;
+}
+ol{
+    font-size: large;
+    font-weight: bold;
+}
+ol li{
+    font-size: medium;
+    font-weight: normal;
+}
+.bigger{
+    font-size: 15pt;
+    font-weight: bold;
+}
