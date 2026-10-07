@@ -1,0 +1,18 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background:url('../Engagements/Background Images/bluebg.jpg') repeat blue;
+    color: white;
+}
+
+main{
+    background: url('../Engagements/Background Images/redFlowerSmall.png') no-repeat center;
+}
+
+.pipeline{
+    width: 250px;
+}
+
+.surfspots{
+    list-style-image: url('../Engagements/Background Images/dot.png');
+}
+
