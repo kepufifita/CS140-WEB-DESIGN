@@ -1,0 +1,87 @@
+body{
+    background-color:aliceblue; 
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav a{
+    color:saddlebrown;
+}
+.current{
+    color:black;
+}
+
+body h1{
+    font-size:xx-large;
+}
+header{
+    font-weight: bold;
+}
+
+.kolo{
+    height: 300px;
+}
+
+.kolokolo{
+    height: 300px;
+}
+
+/*Japan CSS */
+
+.shibuya{
+    height: 250px;
+}
+
+.tokyo{
+    height: 250px;
+}
+
+.inabaa{
+    height: 250px;
+}
+
+
+/* Korea CSS */
+.seoul{
+    height: 250px;
+}
+.busan{
+    height: 250px;
+    width: 350px;
+
+}
+
+/* Tonga CSS */
+
+
+.nukualofa{
+    height: 250px;
+}
+
+.haateiho{
+    height: 250px;
+}
+.matahau{
+    height: 250px;
+}
+
+/*New Zealand CSS*/
+
+.hamilton{
+    height: 250px;
+}
+
+.hobbit{
+    height: 250px;
+}
+
+/*Australia CSS*/
+
+.aussie{
+    height: 250px;
+}
+
+.surf{
+    height: 250px;
+}
