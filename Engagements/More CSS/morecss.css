@@ -1,0 +1,35 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+main h1{
+    font-size:large
+}
+/* Outline is to show the boxes!
+
+*{
+    outline:thin solid red;
+    
+}*/
+.p1{
+    width: 75px;
+    padding: 20px;
+    margin:30px;
+    border-width: 75;
+    border-color: black;
+    border-style: double;
+}
+.p2{
+    padding: 20px;
+    overflow: scroll;
+    margin: 10px;
+    border-width: 10px;
+    border-color: black;
+    border-style:groove
+}
+.p3{
+   margin: 20px;
+   padding: 30px;
+   border:thin solid black;
+   padding:30px 150px;
+   margin: 5px 3px 10px 50px;
+}
