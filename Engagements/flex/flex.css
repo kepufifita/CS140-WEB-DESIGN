@@ -1,0 +1,33 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: aliceblue;
+}
+
+.card{
+    border: 2px solid black;
+    padding: 10px;
+    width: 150px;
+}
+
+nav{
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+    
+}
+
+nav a{
+    display:block;
+    padding: 5px 10px;
+    background-color:lightblue;
+    /*color: white;*/
+    border-bottom:thin solid white;
+}
+
+.parent{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    /* flex-flow: row wrap; comment - ignored*/
+    gap: 10px;
+}
