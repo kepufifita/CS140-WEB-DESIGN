@@ -1,0 +1,46 @@
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: aliceblue;
+    display: grid;
+    grid-template-columns: 200px 1fr;
+}
+main h2{
+    font-size: large;
+}
+main{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+header, nav, footer{
+    grid-column: 1/-1;
+}
+header h1{
+    background-color:lightblue;
+}
+nav{
+     display: flex;
+    justify-content: space-around;
+}
+nav a{
+    display: block;
+    padding: 2px;
+    background-color:skyblue;
+}
+
+.deku{
+    border: 5px solid black;
+    width: 150px;
+    height: 200px;
+}
+.card{
+    border: 3px solid black;
+    text-align: center;
+}
+.parent{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 5px;
+    padding: 3px;
+    background-color: rgb(135, 212, 237);
+}
