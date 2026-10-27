@@ -1,0 +1,28 @@
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: aliceblue;
+}
+header, nav, footer{
+    grid-column: 1/-1;
+}
+main{
+    border: 2px solid black;
+    margin: 3px;
+    padding: 3px;
+}
+main h1{
+    text-align: center;
+}
+nav{
+     display: flex;
+    justify-content: space-around;
+}
+nav a{
+    display: block;
+    padding: 2px;
+    background-color:skyblue;
+}
+nav a:hover{
+    background-color:blue;
+    color: rgb(113,209,177);
+}
