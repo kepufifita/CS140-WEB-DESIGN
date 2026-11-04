@@ -15,85 +15,92 @@
         <a href="#">Contact</a>
     </nav>
     <main>
-        <table border="2">
-           <caption>UA CLASS SCHEDULE</caption>
-           <thead class="key">
-           <tr>
-            <th scope="col">DEPT.</th>
-            <th scope="col">NUM.</th>
-            <th scope="col">NAME</th>
-            <th scope="col">LOCATION</th>
-            <th scope="col">TIME</th>
-            <th scope="col">CREDITS</th>
-           </tr>
-           </thead>
-           <tbody>
-           <tr>
-            <th class="fall" colspan="6" scope="rowgroup">FALL 2026</th>
-           </tr>
-           <tr>
-            <td>HRO</td>
-            <td>101</td>
-            <td>QUIRK DEVELOPMENT</td>
-            <td>HERO TRAINING CENTER</td>
-            <td>9:00AM</td>
-            <td>2</td>
-           </tr>
-           <tr>
-            <td>HRO</td>
-            <td>140</td>
-            <td>QUIRK USE & PUBLIC SAFETY</td>
-            <td>CLASS 1-A</td>
-            <td>10:30AM</td>
-            <td>3</td>
-           </tr>
-           <tr>
-            <td>SUP</td>
-            <td>125</td>
-            <td>INTRO TO SUPPORT GEAR ENGINEERING</td>
-            <td>CLASS 1-F</td>
-            <td>12:00PM</td>
-            <td>2</td>
-           </tr>
-           </tbody>
-           <tbody>
-           <tr>
-            <th class="fall" colspan="6" scope="rowgroup">WINTER 2027</th>
-           </tr>
-           <tr>
-            <td>HRO</td>
-            <td>202</td>
-            <td>ADVANCED QUIRK TRAINING</td>
-            <td>TRAINING CENTER</td>
-            <td>11:00AM</td>
-            <td>4</td>
-           </tr>
-           <tr>
-            <td>SUP</td>
-            <td>220</td>
-            <td>ARTIFICIAL INTELLIGENCE IN HERO TECH</td>
-            <td>UA AUDITORIUM</td>
-            <td>1:00PM</td>
-            <td>3</td>
-           </tr>
-           </tbody>
-           <tfoot>
-           <tr>
-            <th scope="row" colspan="5">TOTAL CREDITS</th>
-            <td>14</td>
-           </tr>
-           </tfoot>
-        </table>
-        <h2>When do you use a table</h2>
-        <p>Use a table for information that is in need for rows and columns. Examples are schedules, price lists, or a depth chart</p>
-        <h2>When do you not use a table</h2>
-        <p>when laying out a page. Use CSS instead</p>
-        <h2>when do you need to do extra work for table accesibility?</h2>
-        <p>when making complex tables with multi-level headers. You would have to add a scope, and maybe a caption so readers can link each cell to its headers.</p>
-        <h2>What question helped when asking AI about tables?</h2>
-        <p>Why is it important to edit tables in CSS rather than in the HTML?</p>
-        <h2>Did AI ever try to give tyou more than you asked for, like writing your code? what did you do?</h2>
-        <p>Yes, it tried to code for me and so I had to constantly remind it that it is only tutoring me. After doing that, It would give me ideas and examples to help me understand it more.</p>
+        <div class="schedule-area">
+            <div class="tablediv">
+                <table id="schedule">
+                    <caption>UA CLASS SCHEDULE</caption>
+                    <thead>
+                        <tr>
+                            <th scope="col">DEPT.</th>
+                            <th scope="col">NUM.</th>
+                            <th scope="col">NAME</th>
+                            <th scope="col">LOCATION</th>
+                            <th scope="col">TIME</th>
+                            <th scope="col">CREDITS</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th class="term" colspan="6" scope="rowgroup">FALL 2026</th>
+                        </tr>
+                        <tr>
+                            <td>HRO</td>
+                            <td>101</td>
+                            <td>QUIRK DEVELOPMENT</td>
+                            <td>HERO TRAINING CENTER</td>
+                            <td>9:00AM</td>
+                            <td>2</td>
+                        </tr>
+                        <tr>
+                            <td>HRO</td>
+                            <td>140</td>
+                            <td>QUIRK USE &amp; PUBLIC SAFETY</td>
+                            <td>CLASS 1-A</td>
+                            <td>10:30AM</td>
+                            <td>3</td>
+                        </tr>
+                        <tr>
+                            <td>SUP</td>
+                            <td>125</td>
+                            <td>INTRO TO SUPPORT GEAR ENGINEERING</td>
+                            <td>CLASS 1-F</td>
+                            <td>12:00PM</td>
+                            <td>2</td>
+                        </tr>
+                    </tbody>
+                    <tbody>
+                        <tr>
+                            <th class="term" colspan="6" scope="rowgroup">WINTER 2027</th>
+                        </tr>
+                        <tr>
+                            <td>HRO</td>
+                            <td>202</td>
+                            <td>ADVANCED QUIRK TRAINING</td>
+                            <td>TRAINING CENTER</td>
+                            <td>11:00AM</td>
+                            <td>4</td>
+                        </tr>
+                        <tr>
+                            <td>SUP</td>
+                            <td>220</td>
+                            <td>ARTIFICIAL INTELLIGENCE IN HERO TECH</td>
+                            <td>UA AUDITORIUM</td>
+                            <td>1:00PM</td>
+                            <td>3</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <th scope="row" colspan="5">TOTAL CREDITS</th>
+                            <td>14</td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
+            <aside class="card">
+                <h2>U.A. STUDENT ID</h2>
+                <img src="../../Photos/deku2.jpg" alt="UA ID">
+                <dl>
+                    <dt>Name</dt>
+                    <dd>Izuku Midoriya</dd>
+                    <dt>Class</dt>
+                    <dd>1-A</dd>
+                    <dt>Quirk</dt>
+                    <dd>One For All</dd>
+
+                </dl>
+            </aside>
+        </div>
     </main>
 </body>
 </html>
