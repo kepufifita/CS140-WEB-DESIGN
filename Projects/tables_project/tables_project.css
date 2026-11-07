@@ -52,9 +52,11 @@ caption{
 
 }
 #yum td{
-    background-color: rgb(112, 141, 167);
     border: 2px solid black;
 }
 yum tbody tr:last-child{
     text-align: right;
+}
+tbody tr:nth-child(odd) {
+    background-color: skyblue;
 }
