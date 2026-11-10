@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="forms.css">
+    <link rel="shortcut icon" href="../../Photos/favicon.ico" type="image/x-icon">
+    <title>Document</title>
+</head>
+<body>
+    <header><h1>Forms</h1></header>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+    </nav>
+    <main>
+        <form action="formprocessing.htl" method="post">
+            <div class="form-row">
+                <label for="personname">Full Name</label>
+                <input id="personname" type="text" name="fullname" placeholder="Full Name">
+            </div>
+            <div class="form-row">
+                <label for="email">Email</label>
+                <input id="email" type="text" name="email" placeholder="Email" value="thisisanemail@email.com">
+            </div>
+            <div class="form-row">
+                <label for="password">Password</label>
+                <input type="password" name="pass" placeholder="Password">
+            </div> 
+            <div class="form-row">
+                <label for="state">State</label>
+                <select name="state" id="state">
+                    <option value="blank">------</option>
+                    <option value="CA">California</option>
+                    <option value="HI">Hawaii</option>
+                    <option value="UT">Utah</option>
+                </select>
+            </div>
+            <div class="form-row">
+                <input type="submit">
+            </div>
+        </form>
+        <br>
+        <main class="questions">
+            <h1>QUESTIONS</h1>
+            <h2>The form tag has an "action" attribute. What does it do?</h2>
+            <p>action gives the URL file tha receives the form data when the form is submitted</p>
+            <h2>The form tag has a "method" attribute. What does it do?</h2>
+            <p>You can declare whether you are using a POST or GET</p>
+            <h2>What is the difference between a "POST" and a "GET"?</h2>
+            <p>GET puts the data in the URL so anyone can see it. POST sends it hidden in the request body, which suits </p>
+            <h2>How do you fill in a form control with a pre-set value, and how is that different from a placeholder? Answer for each of these: text box, textarea, select box, checkbox, and radio button.</h2>
+            <p>preset value is real data thats being submitted. A placeholder is just a faint text that disappears after you trtype and isn't submitted at all.</p>
+            <h2>List all the form controls that HTML5 added. Which ones did you put in your form?</h2>
+            <p>email, url, number, range, date, time, month, week, color, search, etc.</p>
+
+        </main>
+        
+    </main>
+    <footer>&copy; 2026 Kepu Fifita</footer>
+    
+</body>
+</html>
