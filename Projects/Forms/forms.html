@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="forms.css">
+    <link rel="shortcut icon" href="../../Photos/favicon.ico" type="image/x-icon">
+    <title>Document</title>
+</head>
+<body>
+    <header><h1>Forms</h1></header>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+    </nav>
+    <main>
+        <form id="myForm" action="formprocessing.html" method="post">
+            <div class="form-row">
+                <label for="firstName">First Name</label>
+                <input id="firstName" type="text" name="firstName" placeholder="First Name">
+            </div>
+            <div class="form-row">
+                <label for="lastName">Last Name</label>
+                <input id="lastName" type="text" name="lastName" placeholder="Last Name">
+            </div>
+            <div class="form-row">
+                <label for="password">Password</label>
+                <input id="password" type="password" name="password" placeholder="Password">
+            </div>
+            <div class="form-row">
+                <label for="age">Age</label>
+                <input id="age" type="number" name="age" placeholder="Age">
+            </div>
+            <div class="form-row">
+                <label for="birthdate">Birthdate</label>
+                <input id="birthdate" type="date" name="birthdate">
+            </div> 
+            <div class="form-row">
+                <label for="state">State</label>
+                <select name="state" id="state">
+                    <option value="blank">------</option>
+                    <option value="CA">California</option>
+                    <option value="HI">Hawaii</option>
+                    <option value="UT">Utah</option>
+                </select>
+            </div>
+            <div class="form-row">
+                <label for="remember">Remember Me</label>
+                <input id="remember" type="checkbox" name="remember">
+            </div>
+            <div class="form-row">
+                <input type="submit">
+            </div>
+        </form>
+        <br>
+        <main>
+            <div id="message"></div>
+        </main>
+    </main>
+    <footer>&copy; 2026 Kepu Fifita</footer>
+    <script src="formprocessing.js"></script>
+</body>
+</html>
